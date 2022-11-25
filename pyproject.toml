@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "introduction-to-optimization-methods"
+version = "0.1.0"
+description = ""
+authors = ["tanomitsu2002 <tanomitsu2002@gmail.com>"]
+readme = "README.md"
+packages = [{include = "introduction_to_optimization_methods"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cvxpy = "^1.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
