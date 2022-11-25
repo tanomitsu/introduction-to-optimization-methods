@@ -9,6 +9,7 @@ packages = [{include = "introduction_to_optimization_methods"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 cvxpy = "^1.2.2"
+numpy = "^1.23.5"
 
 
 [tool.poetry.group.dev.dependencies]
